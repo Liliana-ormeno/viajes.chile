@@ -35,3 +35,100 @@ body {
 header {
 	color: white
 }
+
+.quienes-somos {
+	padding: 40px;
+}
+
+.destacados {
+	padding: 40px;
+}
+
+.card {
+	background-color: lightseagreen;
+}
+
+.card img {
+	height: 180px;
+}
+
+.card-text {
+	color: white;
+}
+
+.card-title {
+	color: white;
+}
+
+.container {
+	background-color: black;
+	color: white;
+}
+
+.titulo-presentacion {
+	color: white;
+	text-align: center;
+}
+
+.icon {
+	background-color: lightseagreen;
+	text-align: center;
+}
+
+.parrafos {
+	display: inline-flex;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.ir-arriba {
+	display: none;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: rgb(161, 211, 24);
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 3;
+}
+
+
+.footer {
+	background-color: lightseagreen;
+	color: white;
+	--bs-gutter-x: 0;
+}
+
+.fa-brands {
+	font-size: xx-large;
+	color: white;
+}
+
+.logo-footer {
+	text-align: center;
+	font-size: x-large;
+}
+
+/*versión mobile*/
+
+@media screen and (max-width: 600px) {
+	.navbar-toggler {
+		float: right;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	.quienes-somos {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.quienes-somos {
+		display: none;
+	}
+}
